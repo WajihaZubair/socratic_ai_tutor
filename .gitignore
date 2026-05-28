@@ -1,0 +1,15 @@
+# Ignore local python environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore massive model weights and training checkpoints
+socratic-model/
+checkpoint-*/
+*.bin
+*.safetensors
+
+# Ignore system files
+.DS_Store
+.idea/
